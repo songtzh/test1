@@ -1,0 +1,28 @@
+IPRACZTST =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.1.15.54)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ipraczt)
+    )
+  )
+
+IPRAZHTST =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.1.15.54)(PORT = 1522))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ipra54)
+    )
+  )
+
+IPRANXTST =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.1.15.54 )(PORT = 1522))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ipranxts)
+    )
+  )
